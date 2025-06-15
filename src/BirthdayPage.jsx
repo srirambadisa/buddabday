@@ -31,10 +31,26 @@ function BirthdayPage() {
         <section className="personal-message-section">
           <h2>My Dearest Budda...,</h2>
           <p className="glowing-text">
-            Today is all about you! Every picture here is a reminder of the wonderful journey we're on.
-            Your smile lights up my world, and your laughter is my favorite song.
-            I hope your birthday is as bright, beautiful, and extraordinary as you are.
-            May this year bring you endless happiness, success, and all the love you deserve.
+            🎂💖 Happy Birthday My Sweet Budda 💖🎂 <br />
+
+From the moment you came into my life, everything changed. <br />
+Today is not just your birthday — it's a celebration of the most beautiful soul I’ve ever met. <br />
+Your smile is my peace, your laugh is my favorite music, and your love is the most precious gift I’ve ever received. <br />
+
+I still remember the first time we met... the way your eyes lit up, the way my heart whispered, “She’s the one.” <br />
+Since then, every day with you has been a dream — and today, I want to make your dreams come true. <br />
+
+On this first birthday of yours since we met, I want to promise you: <br />
+🌸 I will love you more with each sunrise. <br />
+🌸 I will stand by you in every season of life. <br />
+🌸 I will protect your smile like it’s my world. <br />
+🌸 I will celebrate you — not just today, but every day we breathe together. <br />
+
+You are not just Budda to me — you are my love, my light, my forever. <br />
+
+Happy Birthday, My Angel. <br />
+May your heart be filled with as much joy as you bring to mine. <br />
+I love you, endlessly. 💕🎁✨ <br />
           </p>
           <p className="glowing-text">I love you more than words can say!</p>
         </section>
