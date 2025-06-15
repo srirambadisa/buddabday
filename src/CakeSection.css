@@ -1,0 +1,87 @@
+.cake-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  animation: fadeDown 1s ease;
+  background-color: aliceblue;
+}
+
+.cake-heading {
+  font-size: 2.5rem;
+  color: #f94ad0;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cake-sub-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.cake-scene {
+  position: relative;
+  display: inline-block;
+}
+
+.cake-img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.knife-img {
+  position: absolute;
+  top: -30px;
+  right: -60px;
+  width: 80px;
+  transform: rotate(-45deg);
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
+
+.knife-img.cutting {
+  animation: sliceDown 1s forwards;
+}
+
+@keyframes sliceDown {
+  0% {
+    transform: rotate(-45deg) translateY(0);
+  }
+  50% {
+    transform: rotate(-20deg) translateY(50px);
+  }
+  100% {
+    transform: rotate(-45deg) translateY(0);
+  }
+}
+
+.cut-button {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #f94ad0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+}
+
+.cut-button:hover {
+  background-color: #ff70c0;
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
